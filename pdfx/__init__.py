@@ -77,7 +77,7 @@ class PDFx(object):
     >>> import pdfx
     >>> pdf = pdfx.PDFx("filename-or-url.pdf")
     >>> print(pdf.get_metadata())
-    >>> print(pdf.get_tet())
+    >>> print(pdf.get_text())
     >>> print(pdf.get_references())
     >>> pdf.download_pdfs("target-directory")
     """
